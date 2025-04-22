@@ -1,6 +1,6 @@
 # MITRE ATT&CK Threat Classification App  
 
-*Automated threat alert classification with reasoning powered by AI
+*Automated threat alert classification with reasoning powered by AI*
 
 ---
 
@@ -42,8 +42,8 @@ It uses a local MITRE ATT&CK PDF database, indexed via FAISS, and leverages AI f
 1. **Clone the repo**  
 
 ```bash
-   git clone https://github.com/yourusername/mitre-threat-classifier.git
-   cd mitre-threat-classifier
+   git clone https://github.com/charliepaks/mitre-bot.git
+   cd mitre-bot
 ```
 
 2. **Install dependencies**
@@ -114,8 +114,6 @@ Modify temperature, model_name (e.g., "gpt-4o" when available), or add max_token
 3. Commit your changes (`git commit -m "Add awesome feature"`)  
 4. Push to your branch (`git push origin feature/YourFeature`)  
 5. Open a Pull Request  
-
-
 
 ---
 
