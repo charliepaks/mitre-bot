@@ -39,21 +39,29 @@ It uses a local MITRE ATT&CK PDF database, indexed via FAISS, and leverages AI f
 
 ## 💾 Installation
 
-1. **Clone the repo**  
+ **Clone the repo**  
 
 ```bash
    git clone https://github.com/charliepaks/mitre-bot.git
    cd mitre-bot
 ```
 
-2. **Install dependencies**
+ **Create virtual environment**
+
+```bash
+
+python3 -m venv venv
+source venv/bin/activate
+```
+
+ **Install dependencies**
 
 ```bash
 
 pip install -r requirements.txt
 ```
 
-3. Place the MITRE ATT&CK PDF
+ Place the MITRE ATT&CK PDF
 
 - Name it mitre_attack.pdf (or update the path in the sidebar)
 
